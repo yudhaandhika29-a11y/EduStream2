@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d46">
+  <meta name="description" content="EduStream — media psikoedukasi digital untuk strategi belajar berkelanjutan dan kemandirian siswa SMA.">
+  <title>EduStream — Learn · Reflect · Grow</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#" data-page="home" aria-label="EduStream Beranda">
+      <img src="assets/logo.svg" alt="" class="brand-logo">
+      <span><strong>EduStream</strong><small>LEARN · REFLECT · GROW</small></span>
+    </a>
+    <div class="side-caption">RUANG BELAJAR</div>
+    <nav class="navigation" aria-label="Navigasi utama">
+      <button class="nav-link active" data-page="home"><span class="nav-icon">⌂</span>Beranda</button>
+      <button class="nav-link" data-page="strategi"><span class="nav-icon">✳</span>Strategi Belajar</button>
+      <button class="nav-link" data-page="evaluasi"><span class="nav-icon">◉</span>Evaluasi Mandiri</button>
+      <button class="nav-link" data-page="jurnal"><span class="nav-icon">▤</span>Jurnal Kemandirian</button>
+      <button class="nav-link" data-page="bantuan"><span class="nav-icon">♡</span>Bantuan BK <span class="nav-dot"></span></button>
+    </nav>
+    <div class="side-caption side-caption-lower">INFORMASI</div>
+    <nav class="navigation">
+      <button class="nav-link" data-page="tentang"><span class="nav-icon">ⓘ</span>Tentang & Privasi</button>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="mini-orbit">✦</div>
+      <strong>Belajar adalah proses.</strong>
+      <p>Langkah kecil yang konsisten membangun kemandirian.</p>
+      <button class="text-button" data-page="strategi">Mulai eksplorasi <span>↗</span></button>
+    </div>
+    <div class="sidebar-foot">EduStream Prototype · 2026</div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Buka menu">☰</button>
+        <div><div class="breadcrumb">Ruang belajar <span>/</span> <b id="currentBreadcrumb">Beranda</b></div><div class="topbar-note">Temukan ritme belajar yang paling sesuai denganmu.</div></div>
+      </div>
+      <div class="topbar-right">
+        <span class="local-pill"><i></i> Data tersimpan di perangkat ini</span>
+        <div class="profile-chip"><div class="profile-avatar">ES</div><span><b>Ruang Siswa</b><small>SMA · Kelas X–XII</small></span></div>
+      </div>
+    </header>
+
+    <div class="page-wrap">
+      <!-- BERANDA -->
+      <section class="page active" id="page-home">
+        <div class="hero">
+          <div class="hero-content">
+            <div class="hero-eyebrow"><span></span> YOUR PERSONAL LEARNING SPACE</div>
+            <h1>Belajar lebih dalam,<br><em>tumbuh lebih mandiri.</em></h1>
+            <p>Kenali cara belajarmu, pahami proses berpikirmu, dan susun langkah kecil yang bisa kamu lakukan hari ini.</p>
+            <div class="hero-actions">
+              <button class="btn btn-gold" data-page="strategi">Mulai belajar <span>↗</span></button>
+              <button class="btn btn-glass" data-page="tentang">Kenali EduStream</button>
+            </div>
+            <div class="hero-note"><span>✦</span> Tidak harus sempurna. Mulai dari satu langkah.</div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-glow"></div>
+            <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+            <div class="art-book"><div class="book-page page-left"></div><div class="book-page page-right"></div><div class="book-spine"></div><div class="book-star">✦</div></div>
+            <div class="art-tag tag-top"><span>01</span> UNDERSTAND</div>
+            <div class="art-tag tag-bottom"><span>02</span> REFLECT</div>
+            <div class="art-spark spark-a">✧</div><div class="art-spark spark-b">✦</div>
+          </div>
+          <div class="hero-index">01 <span>—</span> 06</div>
+        </div>
+
+        <div class="section-heading">
+          <div><div class="eyebrow">MULAI DARI DIRIMU</div><h2>Ruang untuk berkembang</h2><p>Enam bagian yang saling terhubung untuk menemani proses belajarmu.</p></div>
+          <span class="heading-aside">DISCOVER YOUR WAY <b>↗</b></span>
+        </div>
+        <div class="feature-grid">
+          <button class="feature-card feature-teal" data-page="strategi"><div class="feature-top"><span class="feature-icon">✳</span><span class="card-arrow">↗</span></div><div class="feature-number">01 / EXPLORE</div><h3>Strategi Belajar</h3><p>Pelajari pendekatan deep learning dan cara memahami materi dengan lebih bermakna.</p><span class="feature-link">Jelajahi modul <b>→</b></span></button>
+          <button class="feature-card feature-lilac" data-page="evaluasi"><div class="feature-top"><span class="feature-icon">◉</span><span class="card-arrow">↗</span></div><div class="feature-number">02 / REFLECT</div><h3>Evaluasi Mandiri</h3><p>Periksa proses berpikirmu dan kenali bagian yang sudah dipahami maupun perlu diulang.</p><span class="feature-link">Mulai refleksi <b>→</b></span></button>
+          <button class="feature-card feature-sand" data-page="jurnal"><div class="feature-top"><span class="feature-icon">▤</span><span class="card-arrow">↗</span></div><div class="feature-number">03 / TAKE ACTION</div><h3>Jurnal Kemandirian</h3><p>Tetapkan target harian, catat hambatan, dan pantau langkah kecilmu.</p><span class="feature-link">Buka jurnal <b>→</b></span></button>
+          <button class="feature-card feature-blue" data-page="bantuan"><div class="feature-top"><span class="feature-icon">♡</span><span class="card-arrow">↗</span></div><div class="feature-number">04 / CONNECT</div><h3>Bantuan BK</h3><p>Kenali kapan perlu mencari dukungan dan bagaimana menghubungi guru BK.</p><span class="feature-link">Lihat informasi BK <b>→</b></span></button>
+        </div>
+
+        <div class="dashboard-row">
+          <div class="panel progress-panel">
+            <div class="panel-title"><div><div class="eyebrow">PERJALANANMU</div><h3>Progres pengembangan diri</h3></div><span class="soft-tag">PERSONAL</span></div>
+            <div class="progress-body"><div class="progress-ring" id="progressRing"><div><strong id="progressPercent">0%</strong><small>progres</small></div></div><div class="progress-copy"><h4>Setiap langkah berarti.</h4><p id="progressMessage">Mulai dengan membuka modul strategi belajar dan menyelesaikan satu aktivitas.</p><div class="progress-meta"><span><i class="tiny-dot mint"></i><b id="moduleCount">0/4</b> modul selesai</span><span><i class="tiny-dot gold"></i><b id="journalCount">0</b> target tuntas</span></div></div></div>
+            <button class="inline-link" data-page="strategi">Lihat perjalanan belajar <span>→</span></button>
+          </div>
+          <div class="quote-panel"><div class="quote-mark">“</div><p>Memahami bagaimana kita belajar adalah bagian penting dari proses belajar itu sendiri.</p><span>REFLECT · PLAN · GROW</span><div class="quote-decoration">✳</div></div>
+        </div>
+        <div class="notice-strip"><span>ⓘ</span><p><b>Ingat:</b> EduStream adalah media psikoedukasi pendukung. Ini bukan tes psikologis, alat diagnosis, atau pengganti konseling langsung dengan guru BK.</p><button data-page="tentang">Pelajari batas penggunaan →</button></div>
+      </section>
+
+      <!-- STRATEGI -->
+      <section class="page" id="page-strategi">
+        <div class="page-intro"><div class="eyebrow">01 · UNDERSTAND YOUR LEARNING</div><h1>Strategi Belajar</h1><p class="lead">Belajar bukan sekadar mengingat. Bangun pemahaman yang bermakna dengan menghubungkan ide, mengajukan pertanyaan, dan menguji pemahamanmu sendiri.</p></div>
+        <div class="deep-banner"><div><span class="banner-label">THE DEEP LEARNING APPROACH</span><h2>Dari sekadar menghafal<br>menuju <em>memahami.</em></h2><p>Proposal EduStream menekankan perbedaan pendekatan belajar mendalam (<i>deep approach</i>) dan pendekatan permukaan (<i>surface approach</i>).</p></div><div class="deep-visual"><div class="deep-circle">DEEP<br><b>LEARNING</b></div><span class="deep-orbit d1"></span><span class="deep-orbit d2"></span><span class="deep-small">✦</span></div></div>
+        <div class="compare-grid">
+          <article class="compare-card surface"><div class="compare-label">SURFACE APPROACH <span>01</span></div><h3>Belajar di permukaan</h3><p>Fokus pada menghafal informasi tanpa cukup menghubungkan makna dan konteks.</p><ul><li>Mengulang bacaan tanpa menguji pemahaman.</li><li>Mengingat kata kunci saja.</li><li>Mudah kehilangan gambaran besar materi.</li></ul></article>
+          <article class="compare-card deep"><div class="compare-label">DEEP APPROACH <span>02</span></div><h3>Belajar secara mendalam</h3><p>Berusaha memahami gagasan, hubungan antarkonsep, dan alasan di balik suatu materi.</p><ul><li>Menghubungkan konsep baru dengan pengetahuan sebelumnya.</li><li>Menjelaskan kembali menggunakan kata-kata sendiri.</li><li>Mengajukan pertanyaan dan mencari alasan.</li></ul></article>
+        </div>
+        <div class="section-heading compact"><div><div class="eyebrow">PRAKTIKKAN SECARA BERTAHAP</div><h2>Toolkit pemahaman materi</h2><p>Contoh teknik praktis untuk menerapkan belajar aktif. Pilih satu yang paling sesuai dengan materi hari ini.</p></div></div>
+        <div class="toolkit-grid">
+          <article class="tool-card"><div class="tool-icon icon-aqua">↺</div><span class="tool-time">10–15 MENIT</span><h3>Active Recall</h3><p>Coba mengingat kembali inti materi tanpa melihat catatan, lalu periksa bagian yang terlewat.</p><button class="expand-btn" data-expand="tool-1">Lihat langkah <span>＋</span></button><div class="expand-content" id="tool-1"><ol><li>Tutup buku atau catatan.</li><li>Tulis atau ucapkan apa yang kamu ingat.</li><li>Buka kembali sumber belajar dan lengkapi bagian yang belum tepat.</li></ol><p class="tool-tip">Cocok untuk: menguji pemahaman setelah membaca atau mengikuti pelajaran.</p></div></article>
+          <article class="tool-card"><div class="tool-icon icon-gold">◷</div><span class="tool-time">BERTAHAP</span><h3>Spaced Practice</h3><p>Bagikan waktu belajar menjadi beberapa sesi agar materi ditinjau kembali secara berkala.</p><button class="expand-btn" data-expand="tool-2">Lihat langkah <span>＋</span></button><div class="expand-content" id="tool-2"><ol><li>Tentukan satu topik kecil.</li><li>Jadwalkan sesi belajar dan sesi tinjauan berikutnya.</li><li>Di setiap sesi, uji kembali apa yang masih kamu ingat.</li></ol><p class="tool-tip">Cocok untuk: materi yang perlu dipahami dan diingat dalam jangka waktu lebih panjang.</p></div></article>
+          <article class="tool-card"><div class="tool-icon icon-lilac">⌘</div><span class="tool-time">15–20 MENIT</span><h3>Mind Mapping</h3><p>Gambarkan gagasan utama dan hubungan antara konsep agar struktur materi lebih terlihat.</p><button class="expand-btn" data-expand="tool-3">Lihat langkah <span>＋</span></button><div class="expand-content" id="tool-3"><ol><li>Tulis topik utama di tengah halaman.</li><li>Tambahkan cabang untuk konsep penting.</li><li>Hubungkan konsep yang saling berkaitan dan beri contoh.</li></ol><p class="tool-tip">Cocok untuk: materi dengan banyak konsep yang saling terhubung.</p></div></article>
+          <article class="tool-card"><div class="tool-icon icon-blue">✎</div><span class="tool-time">5–10 MENIT</span><h3>Explain It Simply</h3><p>Jelaskan materi dengan bahasa sederhana seolah-olah kamu sedang mengajarkannya.</p><button class="expand-btn" data-expand="tool-4">Lihat langkah <span>＋</span></button><div class="expand-content" id="tool-4"><ol><li>Pilih satu konsep.</li><li>Jelaskan tanpa menyalin definisi buku.</li><li>Tandai bagian yang sulit dijelaskan, lalu pelajari kembali.</li></ol><p class="tool-tip">Cocok untuk: memeriksa apakah kamu benar-benar memahami sebuah ide.</p></div></article>
+        </div>
+        <div class="practice-panel"><div><div class="eyebrow">LEARNING ACTION</div><h3>Tentukan satu aksi belajarmu.</h3><p>Pilih teknik yang ingin dicoba dan simpan sebagai target di Jurnal Kemandirian.</p></div><div class="practice-control"><select id="practiceTechnique" aria-label="Pilih teknik belajar"><option>Active Recall</option><option>Spaced Practice</option><option>Mind Mapping</option><option>Explain It Simply</option></select><button class="btn btn-primary" id="addPractice">Jadikan target ↗</button></div></div>
+        <div class="theory-note"><b>Landasan konsep</b><span>Deep approach dan surface approach merujuk pada landasan belajar bermakna dalam proposal (Biggs, 2011). Teknik di atas merupakan contoh aktivitas praktis untuk membantu siswa menerapkan pemahaman aktif.</span></div>
+      </section>
+
+      <!-- EVALUASI -->
+      <section class="page" id="page-evaluasi">
+        <div class="page-intro"><div class="eyebrow">02 · METACOGNITIVE CHECK-IN</div><h1>Evaluasi Mandiri</h1><p class="lead">Berhenti sejenak dan amati proses belajarmu. Refleksi ini membantu mengenali apa yang sudah dipahami, bagian yang masih membingungkan, serta langkah berikutnya.</p></div>
+        <div class="reflection-layout">
+          <div class="reflection-main panel">
+            <div class="step-heading"><div><span class="step-chip">CHECK-IN 01</span><h3>Bagaimana proses belajarmu hari ini?</h3><p>Pilih pernyataan yang sesuai dengan pengalamanmu. Tidak ada jawaban benar atau salah.</p></div><span class="reflection-symbol">◉</span></div>
+            <div class="check-list">
+              <label class="check-row"><input type="checkbox" name="reflect" value="Saya dapat menjelaskan inti materi dengan kata-kata sendiri."><span class="custom-check"></span><span><b>Saya dapat menjelaskan inti materi dengan kata-kata sendiri.</b><small>Memeriksa apakah pemahaman sudah terbentuk.</small></span></label>
+              <label class="check-row"><input type="checkbox" name="reflect" value="Saya dapat menghubungkan materi baru dengan pengetahuan sebelumnya."><span class="custom-check"></span><span><b>Saya dapat menghubungkan materi baru dengan pengetahuan sebelumnya.</b><small>Melihat hubungan antara konsep.</small></span></label>
+              <label class="check-row"><input type="checkbox" name="reflect" value="Saya tahu bagian materi yang belum saya pahami."><span class="custom-check"></span><span><b>Saya tahu bagian materi yang belum saya pahami.</b><small>Menyadari bagian yang masih perlu dipelajari.</small></span></label>
+              <label class="check-row"><input type="checkbox" name="reflect" value="Saya mencoba strategi belajar secara aktif."><span class="custom-check"></span><span><b>Saya mencoba strategi belajar secara aktif.</b><small>Misalnya menjelaskan ulang, membuat peta konsep, atau menguji ingatan.</small></span></label>
+              <label class="check-row"><input type="checkbox" name="reflect" value="Saya memiliki rencana untuk meninjau materi kembali."><span class="custom-check"></span><span><b>Saya memiliki rencana untuk meninjau materi kembali.</b><small>Menentukan tindak lanjut setelah belajar.</small></span></label>
+            </div>
+            <div class="form-divider"></div>
+            <div class="form-field"><label for="reflectionSubject">Materi yang sedang dipelajari</label><input id="reflectionSubject" type="text" placeholder="Contoh: Sistem pernapasan manusia"></div>
+            <div class="form-field"><label for="reflectionDifficult">Bagian yang masih membingungkan</label><textarea id="reflectionDifficult" rows="3" placeholder="Tuliskan bagian atau pertanyaan yang ingin kamu pahami..."></textarea></div>
+            <div class="form-field"><label for="reflectionNext">Langkah berikutnya yang ingin saya lakukan</label><textarea id="reflectionNext" rows="3" placeholder="Contoh: membaca ulang subbab 2 lalu mencoba menjelaskan dengan kata-kata sendiri."></textarea></div>
+            <div class="form-actions"><span class="save-hint">Privat · disimpan di browser ini</span><button class="btn btn-primary" id="saveReflection">Simpan refleksi <span>↗</span></button></div>
+          </div>
+          <aside class="reflection-aside">
+            <div class="aside-card aside-teal"><span class="aside-overline">METAKOGNISI</span><div class="big-aside-icon">◎</div><h3>Mengenali cara berpikir sendiri.</h3><p>Metakognisi berkaitan dengan kesadaran dan pemantauan terhadap proses berpikir serta belajar.</p><small>Flavell (1979)</small></div>
+            <div class="aside-card aside-light"><div class="aside-quote">“</div><p>Belum paham bukan berarti gagal. Itu adalah informasi tentang bagian yang perlu kamu pelajari berikutnya.</p></div>
+          </aside>
+        </div>
+        <div class="reflection-result panel" id="reflectionResult" hidden><div class="result-head"><div><div class="eyebrow">REFLEKSI TERSIMPAN</div><h3>Catatan untuk langkah berikutnya</h3></div><span class="soft-tag">BUKAN NILAI / DIAGNOSIS</span></div><p id="reflectionSummary"></p><div id="reflectionDetails" class="result-details"></div><button class="inline-link" data-page="jurnal">Ubah langkah berikutnya menjadi target jurnal →</button></div>
+        <div class="theory-note"><b>Landasan konsep</b><span>Lembar cek ini merupakan aktivitas refleksi metakognitif yang terinspirasi dari konsep pemantauan proses berpikir (Flavell, 1979). Hasilnya bukan tes psikologis, skor kemampuan, atau diagnosis.</span></div>
+      </section>
+
+      <!-- JURNAL -->
+      <section class="page" id="page-jurnal">
+        <div class="page-intro"><div class="eyebrow">03 · SELF-REGULATED LEARNING</div><h1>Jurnal Kemandirian</h1><p class="lead">Rencanakan tujuan, antisipasi hambatan, pilih strategi, lalu lihat kembali proses yang sudah kamu jalani.</p></div>
+        <div class="journal-top-row"><div class="journal-stat panel"><div class="stat-icon">✦</div><div><span>TARGET TERCATAT</span><strong id="totalTargets">0</strong></div></div><div class="journal-stat panel"><div class="stat-icon gold-stat">✓</div><div><span>SUDAH TUNTAS</span><strong id="doneTargets">0</strong></div></div><div class="journal-stat panel"><div class="stat-icon lilac-stat">↗</div><div><span>MASIH BERJALAN</span><strong id="activeTargets">0</strong></div></div></div>
+        <div class="journal-layout">
+          <div class="panel journal-form-panel">
+            <div class="form-panel-title"><div class="eyebrow">PLAN YOUR NEXT STEP</div><h3 id="journalFormTitle">Tulis target belajarmu</h3><p>Target kecil yang jelas lebih mudah dimulai.</p></div>
+            <form id="journalForm">
+              <input type="hidden" id="journalId">
+              <div class="form-field"><label for="journalTarget">Target belajar <span>*</span></label><input id="journalTarget" required maxlength="120" placeholder="Contoh: memahami 2 subbab matematika"></div>
+              <div class="form-two"><div class="form-field"><label for="journalDate">Tanggal target <span>*</span></label><input id="journalDate" type="date" required></div><div class="form-field"><label for="journalDuration">Durasi rencana</label><select id="journalDuration"><option>15 menit</option><option selected>25 menit</option><option>30 menit</option><option>45 menit</option><option>60 menit</option></select></div></div>
+              <div class="form-field"><label for="journalObstacle">Hambatan yang mungkin muncul</label><textarea id="journalObstacle" rows="3" placeholder="Contoh: mudah terdistraksi oleh ponsel..."></textarea></div>
+              <div class="form-field"><label for="journalStrategy">Strategi yang akan saya gunakan</label><textarea id="journalStrategy" rows="3" placeholder="Contoh: active recall, lalu istirahat singkat..."></textarea></div>
+              <div class="form-actions"><button class="btn btn-primary full-btn" type="submit" id="journalSubmit">Simpan target <span>↗</span></button><button class="btn btn-quiet full-btn" type="button" id="cancelEdit" hidden>Batal edit</button></div>
+            </form>
+          </div>
+          <div class="journal-list-panel">
+            <div class="list-header"><div><div class="eyebrow">YOUR LEARNING LOG</div><h3>Catatan target</h3></div><button class="export-btn" id="exportJournal">↓ Export CSV</button></div>
+            <div class="filter-row"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="active">Berjalan</button><button class="filter-btn" data-filter="done">Tuntas</button></div>
+            <div id="journalList" class="journal-list"><div class="empty-state"><span>▤</span><b>Belum ada target belajar.</b><p>Mulai dengan menuliskan satu hal yang ingin kamu pelajari.</p></div></div>
+          </div>
+        </div>
+        <div class="theory-note"><b>Landasan konsep</b><span>Jurnal dirancang untuk mendukung regulasi diri: merumuskan tujuan, memilih strategi, memantau progres, dan mengevaluasi hasil belajar (Zimmerman, 2002; Sujarwo et al., 2023).</span></div>
+      </section>
+
+      <!-- BANTUAN BK -->
+      <section class="page" id="page-bantuan">
+        <div class="page-intro"><div class="eyebrow">04 · YOU DON'T HAVE TO DO IT ALONE</div><h1>Bantuan BK</h1><p class="lead">Mencari bantuan adalah bagian dari proses belajar dan merawat diri. Kenali kapan kamu bisa menghubungi guru Bimbingan dan Konseling.</p></div>
+        <div class="bk-hero"><div class="bk-copy"><div class="banner-label">A SUPPORTIVE SPACE</div><h2>Setiap siswa berhak<br>mendapat <em>dukungan.</em></h2><p>EduStream membantu memberi informasi jalur bantuan. Guru BK tetap menjadi pihak profesional yang memahami kebutuhan dan tindak lanjut di sekolah.</p></div><div class="bk-illustration"><div class="bk-bubble bubble-1">♡</div><div class="bk-bubble bubble-2">✦</div><div class="bk-circle"><div class="bk-person">☺</div><span>YOU ARE<br>NOT ALONE</span></div></div></div>
+        <div class="section-heading compact"><div><div class="eyebrow">WHEN TO REACH OUT</div><h2>Kapan sebaiknya menghubungi BK?</h2><p>Kamu dapat mencari dukungan saat mengalami hal-hal berikut.</p></div></div>
+        <div class="help-grid"><article class="help-card"><span>01</span><div class="help-icon">▤</div><h3>Hambatan belajar</h3><p>Kesulitan memahami materi, mengatur jadwal, atau menentukan prioritas belajar.</p></article><article class="help-card"><span>02</span><div class="help-icon">◷</div><h3>Penundaan berulang</h3><p>Sering menunda tugas dan merasa sulit memulai atau menyelesaikan pekerjaan sekolah.</p></article><article class="help-card"><span>03</span><div class="help-icon">♡</div><h3>Butuh tempat bercerita</h3><p>Ingin membicarakan situasi sekolah atau hal lain yang terasa mengganggu proses belajarmu.</p></article><article class="help-card"><span>04</span><div class="help-icon">✦</div><h3>Perlu arahan</h3><p>Ingin berdiskusi tentang strategi belajar atau langkah dukungan yang tersedia di sekolah.</p></article></div>
+        <div class="bk-contact-layout">
+          <div class="panel contact-panel"><div class="eyebrow">INFORMASI SEKOLAH</div><h3>Hubungi guru BK di sekolahmu</h3><p>Kontak dan jadwal berikut adalah kolom contoh yang perlu diisi atau disesuaikan oleh pihak sekolah.</p>
+            <div class="contact-placeholder"><div class="contact-symbol">⌂</div><div><b>Ruang Bimbingan dan Konseling</b><span>Lokasi ruang BK: <strong id="bkRoomDisplay">Silakan isi oleh pihak sekolah</strong></span></div></div>
+            <div class="contact-placeholder"><div class="contact-symbol">◷</div><div><b>Jadwal konsultasi</b><span id="bkScheduleDisplay">Silakan konfirmasi jadwal kepada guru BK.</span></div></div>
+            <div class="contact-placeholder"><div class="contact-symbol">✉</div><div><b>Kontak guru BK</b><span id="bkContactDisplay">Belum diatur oleh pihak sekolah.</span></div></div>
+            <div class="school-config"><button id="toggleBkConfig" class="inline-link">Atur informasi contoh sekolah <span>＋</span></button><div id="bkConfig" hidden><div class="form-field"><label for="bkRoom">Lokasi ruang BK</label><input id="bkRoom" placeholder="Contoh: Ruang BK, dekat perpustakaan"></div><div class="form-field"><label for="bkSchedule">Jadwal konsultasi</label><input id="bkSchedule" placeholder="Contoh: Senin–Jumat, 08.00–14.00"></div><div class="form-field"><label for="bkContact">Kontak resmi (opsional)</label><input id="bkContact" placeholder="Isi kontak resmi sekolah"></div><button class="btn btn-primary" id="saveBkConfig">Simpan informasi</button></div></div>
+          </div>
+          <div class="panel request-panel"><div class="eyebrow">PREPARE YOUR CONVERSATION</div><h3>Siapkan hal yang ingin dibicarakan</h3><p>Catatan ini hanya tersimpan di browser sebagai pengingat pribadi. Formulir ini tidak mengirim permintaan kepada guru BK.</p><form id="bkNoteForm"><div class="form-field"><label for="bkTopic">Topik yang ingin dibahas</label><select id="bkTopic"><option>Strategi dan kebiasaan belajar</option><option>Kesulitan memahami materi</option><option>Manajemen waktu dan tugas</option><option>Situasi sekolah yang ingin dibicarakan</option><option>Lainnya</option></select></div><div class="form-field"><label for="bkNote">Catatan untuk diriku</label><textarea id="bkNote" rows="5" placeholder="Tuliskan poin yang ingin kamu sampaikan saat bertemu guru BK..."></textarea></div><button type="submit" class="btn btn-primary full-btn">Simpan catatan pribadi ↗</button><div id="bkNoteStatus" class="inline-status" aria-live="polite"></div></form></div>
+        </div>
+        <div class="urgent-note"><span>ⓘ</span><p><b>Butuh bantuan segera?</b> Jangan menunggu aplikasi. Datangi guru BK, wali kelas, orang dewasa tepercaya, atau layanan bantuan setempat secara langsung sesuai kebutuhan dan situasimu.</p></div>
+      </section>
+
+      <!-- TENTANG -->
+      <section class="page" id="page-tentang">
+        <div class="page-intro"><div class="eyebrow">05 · KNOW YOUR SPACE</div><h1>Tentang & Privasi</h1><p class="lead">EduStream dikembangkan sebagai media psikoedukasi digital untuk membantu siswa SMA mengembangkan strategi belajar berkelanjutan dan kemandirian belajar.</p></div>
+        <div class="about-hero"><div class="about-logo"><img src="assets/logo.svg" alt="Logo EduStream"></div><div><div class="banner-label">LEARN · REFLECT · GROW</div><h2>Belajar dengan sadar.<br>Bertumbuh dengan arah.</h2><p>Media pendukung preventif yang menghubungkan pemahaman, refleksi, strategi belajar, jurnal kemandirian, dan akses bantuan BK.</p></div></div>
+        <div class="section-heading compact"><div><div class="eyebrow">OUR PURPOSE</div><h2>Tiga aktivitas utama</h2><p>Alur EduStream dibangun sebagai proses yang saling berkaitan.</p></div></div>
+        <div class="purpose-grid"><article><span>01</span><div class="purpose-icon">⌕</div><h3>Pemahaman</h3><p>Mengenali metode dan strategi belajar yang lebih efektif serta memahami materi secara mendalam.</p></article><article><span>02</span><div class="purpose-icon">◎</div><h3>Refleksi & regulasi diri</h3><p>Mengevaluasi pemahaman dan mencatat progres belajar untuk merencanakan tindakan berikutnya.</p></article><article><span>03</span><div class="purpose-icon">♡</div><h3>Akses bantuan</h3><p>Mengetahui kapan dan bagaimana menghubungi guru BK untuk konsultasi lanjutan.</p></article></div>
+        <div class="section-heading compact"><div><div class="eyebrow">PRIVACY BY DESIGN</div><h2>Privasi dan batas penggunaan</h2><p>Keamanan, kejelasan, dan penghormatan terhadap pengalaman siswa merupakan bagian dari rancangan.</p></div></div>
+        <div class="privacy-grid">
+          <article class="privacy-card"><span class="privacy-icon">⌂</span><div><h3>Penyimpanan lokal</h3><p>Data jurnal, refleksi, dan pengaturan contoh disimpan pada penyimpanan lokal browser di perangkat yang digunakan. Website ini tidak mengirim data ke server.</p></div></article>
+          <article class="privacy-card"><span class="privacy-icon">◌</span><div><h3>Data minimal</h3><p>Prototipe tidak meminta identitas sensitif untuk menjalankan fitur. Gunakan data contoh saat demonstrasi.</p></div></article>
+          <article class="privacy-card"><span class="privacy-icon">♡</span><div><h3>Bukan diagnosis</h3><p>EduStream bukan tes psikologis, alat diagnosis, atau sistem pemberi label. Refleksi tidak menghasilkan skor klinis atau profil psikologis.</p></div></article>
+          <article class="privacy-card"><span class="privacy-icon">✦</span><div><h3>Bukan pengganti konseling</h3><p>Teknologi mendukung layanan BK, bukan menggantikan konseling langsung. Keputusan tindak lanjut tetap menjadi kewenangan profesional guru BK.</p></div></article>
+        </div>
+        <div class="data-control panel"><div><div class="eyebrow">YOUR DATA, YOUR DEVICE</div><h3>Kelola data pada perangkat ini</h3><p>Hapus jurnal, refleksi, dan pengaturan lokal dari browser yang sedang digunakan. Tindakan ini tidak dapat dibatalkan.</p></div><button class="btn btn-outline-danger" id="clearData">Hapus seluruh data lokal</button></div>
+        <div class="reference-panel"><div class="eyebrow">LANDASAN KONSEP DALAM PROPOSAL</div><div class="reference-list"><span><b>Biggs (2011)</b> · deep approach dan surface approach</span><span><b>Flavell (1979)</b> · metakognisi dan pemantauan proses berpikir</span><span><b>Zimmerman (2002)</b> · self-regulated learning</span><span><b>Sujarwo et al. (2023)</b> · media belajar mandiri dan regulasi diri</span><span><b>Prayitno & Amti (2015)</b> · bimbingan dan konseling komprehensif</span></div><small>Prototipe tahap UTS berfokus pada rancangan dan uji kelayakan awal; belum dimaksudkan sebagai implementasi luas.</small></div>
+      </section>
+    </div>
+    <footer class="footer"><span>© 2026 EduStream Prototype</span><span>LEARN · REFLECT · GROW</span><span>Made for meaningful learning</span></footer>
+  </main>
+</div>
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
